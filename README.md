@@ -13,6 +13,6 @@ Building fires remain a critical public safety concern, threatening lives, prope
 ## Code
 * `fire_indexes.ipynb`: Code for generating the city-level fire risk index.
 * `step1_occurrence_cbsa.ipynb`: Code for fire occurrence risk analysis by fitting multiple GAMs to examine risk from multiple perspectives, including overall risk, regional variation, and seasonal patterns.
-* 'step2_ceosequence_injury_severity.ipynb': Code the FireCat framework for predicting injury severity resulting from fire incidents.
-* 'step2_consequence_fire_spread.ipynb': Code the FireCat framework for predicting fire spreading risk.
-* 'step2_consequence_loss.ipynb': Code the FireCat framework for predicting economic loss resulting from fire incidents.
+* `step2_ceosequence_injury_severity.ipynb`: Code the FireCat framework for predicting injury severity resulting from fire incidents.
+* `step2_consequence_fire_spread.ipynb`: Code the FireCat framework for predicting fire spreading risk.
+* `step2_consequence_loss.ipynb`: Code the FireCat framework for predicting economic loss resulting from fire incidents.
