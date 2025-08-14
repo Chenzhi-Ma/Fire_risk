@@ -11,3 +11,4 @@ Building fires remain a critical public safety concern, threatening lives, prope
 ## Data
 
 ## Code
+* 'fire_indexes.ipynb': Code for generating the city-level fire risk index. 
