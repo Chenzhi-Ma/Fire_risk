@@ -43,7 +43,7 @@ Building fires remain a critical public safety concern, threatening lives, prope
 * Clone the repository: git clone https://github.com/Chenzhi-Ma/Fire_risk.git
 * Navigate into the repository: cd Fire_risk
 * Run each sub '.ipynb' file to generate the corresponding results used in the manuscript analysis.
-* Total installation time, including cloning the repo and installing the required packages, may take about 10 mins.
+* Total installation time, including cloning the repo, setting up the environment, and installing the required packages, may take about 10 mins.
 # Demo
 * Data and code details are provided within the repository. Each cell in the notebooks includes explanations of its functionality.
 * Expected output: Consistent with the results discussed in the manuscript.
