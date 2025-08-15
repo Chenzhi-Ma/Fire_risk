@@ -24,3 +24,33 @@ Building fires remain a critical public safety concern, threatening lives, prope
 * `step2_ceosequence_injury_severity.ipynb`: Code the FireCat framework for predicting injury severity resulting from fire incidents.
 * `step2_consequence_fire_spread.ipynb`: Code the FireCat framework for predicting fire spreading risk.
 * `step2_consequence_loss.ipynb`: Code the FireCat framework for predicting economic loss resulting from fire incidents.
+
+# System requirement
+## Software Dependencies
+* Python (version 3.10.12)
+* catBoost (version 1.5.2)
+* numpy (version 1.26.4)
+* R(version 4.4.1)
+* mgcv (version 1.9.1)
+* gratia (version 0.9.2)
+* tidy (version 1.3.1)
+## Operating Systems Tested
+* Windows 11
+* MacOS Sequio 15.6
+## Hardware Requirements
+* GPU acceleration is recommended for machine learning training of fire spread, human injury, and economic loss models.# Installation guide
+# Installation guide
+* Clone the repository: git clone https://github.com/Chenzhi-Ma/Fire_risk.git
+* Navigate into the repository: cd Fire_risk
+* Run each sub '.ipynb' file to generate the corresponding results used in the manuscript analysis.
+# Demo
+* Data and code details are provided within the repository. Each cell in the notebooks includes explanations of its functionality.
+* Expected output: Consistent with the results discussed in the manuscript.
+* Expected runtime:
+  * Most code executes within seconds.
+  * Machine learning training for fire spread, human injury, and economic loss completes within 1 minute when using GPU acceleration.
+# Instructions for use
+* Once the repository is cloned to the local path, run any '.ipynb' file individually to generate the corresponding analysis results.  
+
+
+  
