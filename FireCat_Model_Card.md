@@ -61,12 +61,12 @@ Potential users include fire-safety researchers, city risk analysts, and public 
 - **Reporting bias & missingness:** NFIRS is voluntary and can vary across jurisdictions; recorded incident attributes and loss estimates can be incomplete or noisy. The paper categorizes economic loss partly to reduce reporting uncertainty.
 - **Generalization limits:** Model behavior may shift across time, regions, or cities with different reporting practices and built environments.
 - **Correlated features:** Many community and incident variables can be correlated; importance/attribution should be interpreted cautiously.
-- **Ablation studies not included (paper scope):** The study emphasizes baseline distribution comparison and SHAP-based interpretability, rather than systematically removing feature groups/components. A strong extension is to add **group ablations** (incident-only vs local-only; and by feature families) plus regional/temporal robustness checks.
+- **Ablation studies not included (paper scope):** The study emphasizes baseline distribution comparison and SHAP-based interpretability, rather than systematically removing feature groups/components. 
 
 ### Recommendations
 - Validate performance on your target jurisdiction/time period before deployment.
 - Use probability thresholds (the paper shows accuracy improves with higher confidence thresholds) when decisions require higher reliability.
-- Pair outputs with interpretability (SHAP) and uncertainty-aware policies (e.g., abstain when low confidence).
+- Pair outputs with interpretability (SHAP) and uncertainty-aware policies.
 
 ## How to Get Started
 
@@ -102,7 +102,7 @@ Coverage includes 2012–2022 and a large fraction of U.S. metropolitan/micropol
 
 ### Training Procedure
 - **Algorithm:** CatBoost (tree-based boosting)
-- **Targets:** Fire spread (multi-class), injury risk (3-class), loss risk (3-class)
+- **Targets:** Fire spread (4-class), injury risk (3-class), loss risk (3-class)
 - **Baselines:** Probabilistic baseline based on target distribution
 - **Interpretability:** SHAP to quantify feature contributions (incident-specific factors tend to dominate)
 
